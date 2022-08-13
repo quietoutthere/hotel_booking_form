@@ -1,0 +1,23 @@
+body {
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("http://3.bp.blogspot.com/-efRmz5fMwDA/TqYVDo0WrcI/AAAAAAAAA_U/z4U9KETs6Gg/s1600/21Scioto+Trail+062.jpg");
+}
+
+body img {
+    position: relative;
+    
+}
+body .welcome {
+    position: absolute;
+    left: 35%;
+    top: 3%;
+    text-align: center;
+   
+}
+
+span {
+    font-size: medium;
+    font-style: oblique;
+} 
