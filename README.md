@@ -9,4 +9,5 @@ This is my second project with an introduction to HTML forms. However, I've not 
 
 
 Author:
-Evan Oyster / LinkedIn: (will make)
+Evan Oyster - Full Stack Developer 
+LinkedIn: (will make)
