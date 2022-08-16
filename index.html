@@ -1,47 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="stylesheet.css">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Three Rivers Resort</title>
+  <title>Three Rivers Resort</title>
+  <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
     <div class="welcome">
-      <h1> Three Rivers Resort<h1>
-      <h3> Pittsburgh's Finest Luxury Vacation <h3> 
+      <h1> Three Rivers Resort</h1>
+      <h3> Pittsburgh's Finest Luxury Vacation </h1>
       <hr>
     <form>
-      <p>
+      <div>
         <label>First Name:</label>
-        <input type="text" required>
+        <input type="text" class="firstName" required>
         <label>Last Name:</label>
-        <input type="text" required>
+        <input type="text" class="lastName" required>
         <label for="email">Email:</label>
-        <input type="email" name="email" id="email" required>
-      </p>
-      <p>
+        <input type="email" name="email" id="email" class="email" required>
+      </div>
+    <div>
         <label>Address:</label>
         <input required>
-        <label for="rooms">Rooms:</label>
+        <label for="rooms">Rooms:
           <select name="rooms" id="rooms" required>
             <option label="Select Number of Rooms" ></option>
-            <option value="1"> 1</option>
+            <option value="1">1</option>
             <option value="2">2</option>
           </select>
-        <label for="adults">Adults:</label>
+        </label>
+        <label for="adults">Adults:
           <select name="adults" id="adults" required>
             <option label="Select Number of Adults"></option>  
-            <option value="1"> 1</option>
-            <option value="2"> 2</option>
-            <option value="3"> 3</option>
-            <option value="4"> 4</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
           </select>
-      </p>
-      <p>
-        <label for="nights">Nights:</label>
-          <select name="nights" id="nights" required>
+        </label>
+      </div>
+      <div>
+        <label for="nights">Nights:
+          <select name="nights" id="nights" class="nights" required>
             <option label="Select Number of Nights"></option>
             <option value="1"> 1</option>
             <option value="2"> 2</option>
@@ -51,8 +53,9 @@
             <option value="6"> 6</option>
             <option value="7"> 7</option>
           </select>
-      </p>
-        <button type="submit">Confirm Reservation</button> 
+        </label>
+      </div>
+      <button type="submit">Confirm Reservation</button> 
     </form>
 </body>
 </html>
